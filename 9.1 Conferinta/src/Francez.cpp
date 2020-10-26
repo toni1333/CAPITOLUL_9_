@@ -3,3 +3,6 @@
 Francez::Francez()
 {
 }
+Francez::~Francez()
+{
+}

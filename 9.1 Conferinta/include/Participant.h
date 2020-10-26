@@ -5,7 +5,8 @@ enum Limba{engleza=0,romana,germana,franceza};
 class Participant
 {
 public:
-    //Participant();
+    Participant();
+    virtual~Participant();
     virtual Limba Vorbeste(){return engleza;}
 };
 

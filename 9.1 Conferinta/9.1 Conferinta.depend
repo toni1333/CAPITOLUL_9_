@@ -30,3 +30,34 @@
 1603403950 source:i:\proiecte\9.1 conferinta\src\roman.cpp
 	<Roman.h>
 
+1603740955 source:i:\github pc\capitolul_9_\9.1 conferinta\main.cpp
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<Roman.h>
+	<Francez.h>
+	<German.h>
+
+1603739642 i:\github pc\capitolul_9_\9.1 conferinta\include\roman.h
+	<Participant.h>
+
+1603739470 i:\github pc\capitolul_9_\9.1 conferinta\include\participant.h
+
+1603739555 i:\github pc\capitolul_9_\9.1 conferinta\include\francez.h
+	<Participant.h>
+
+1603739642 i:\github pc\capitolul_9_\9.1 conferinta\include\german.h
+	<Participant.h>
+
+1603739642 source:i:\github pc\capitolul_9_\9.1 conferinta\src\francez.cpp
+	<Francez.h>
+
+1603739642 source:i:\github pc\capitolul_9_\9.1 conferinta\src\german.cpp
+	<German.h>
+
+1603739554 source:i:\github pc\capitolul_9_\9.1 conferinta\src\participant.cpp
+	<Participant.h>
+
+1603739708 source:i:\github pc\capitolul_9_\9.1 conferinta\src\roman.cpp
+	<Roman.h>
+

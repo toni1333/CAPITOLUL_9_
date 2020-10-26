@@ -6,6 +6,7 @@ class Francez : public Participant
 {
 public:
     Francez();
+    virtual ~Francez();
     Limba Vorbeste(){return  franceza;}
 };
 

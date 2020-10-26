@@ -15,7 +15,7 @@ void Meniu() {
     cout<< "0. Iesire "<<endl;
 }
 
-Participant* CreeazaParticipant() {
+Participant* CreeazaParticipant(){
     system("cls");
     cout<< "Alegeti nationalitatea: "<<endl;
     cout<< "1. romana "<<endl;
@@ -26,10 +26,10 @@ Participant* CreeazaParticipant() {
     cin>>nrTast;
     switch(nrTast)
     {
-    case 1: {Participant* ro=new Roman(); return ro;break;}
-    case 2: {Participant* fr=new Francez(); return fr;break;}
-    case 3: {Participant* de=new German(); return de;break;}
-    case 4: {Participant* alta=new Participant(); return alta; break;}
+    case 1: {Participant* rom=new Roman(); return rom;break;}
+    case 2: {Participant* fra=new Francez(); return fra;break;}
+    case 3: {Participant* ger=new German(); return ger;break;}
+    case 4: {Participant* alt=new Participant(); return alt; break;}
     }
         return 0;
 }
@@ -49,27 +49,27 @@ int main()
     else if(nrTast==2)
  {
     system ("cls");
-    us ro=0;
-    us fr=0;
-    us de=0;
-    us alta=0;
-     for(us i=0;i<pntParticipanti.size();++i)
+    us rom=0;
+    us fra=0;
+    us ger=0;
+    us alt=0;
+     for(us x=0;x<pntParticipanti.size();++x)
       {
-     switch(pntParticipanti[i]->Vorbeste())
+     switch(pntParticipanti[x]->Vorbeste())
      {
-     case 0: ++alta; break;
-     case 1: ++ro; break;
-     case 2: ++de; break;
-     case 3: ++fr; break;
+     case 0: ++alt; break;
+     case 1: ++rom; break;
+     case 2: ++ger; break;
+     case 3: ++fra; break;
      }
       }
-      if(ro>0 || fr>0 || de>0 || alta>0)
+      if((rom>0)||(fra>0)||(ger>0)||(alt>0))
       {
       cout<< "Participanti inscrisi pana acum:"<<endl;
-      cout<< ro<<" romani"<<endl;
-      cout<< fr<<" francezi"<<endl;
-      cout<< de<<" germani"<<endl;
-      cout<< alta<<" altii"<<endl;
+      cout<< rom<<" romani"<<endl;
+      cout<< fra<<" francezi"<<endl;
+      cout<< ger<<" germani"<<endl;
+      cout<< alt<<" altii"<<endl;
       system("pause");
       }
      }

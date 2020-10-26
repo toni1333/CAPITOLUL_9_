@@ -6,6 +6,7 @@ class Roman : public Participant
 {
 public:
     Roman();
+    virtual~Roman();
     Limba Vorbeste(){return  romana;}
 };
 

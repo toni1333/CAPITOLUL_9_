@@ -3,3 +3,6 @@
 German::German()
 {
 }
+German::~German()
+{
+}
