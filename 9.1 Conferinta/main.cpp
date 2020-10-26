@@ -24,12 +24,17 @@ Participant* CreeazaParticipant(){
     cout<< "4. alta "<<endl;
     us nrTast;
     cin>>nrTast;
-    switch(nrTast)
-    {
+    while(nrTast>4||nrTast==0){
+       cout<<"Nu ati introdus un numar valid...  mai incercati odata!"<<endl;
+       nrTast=0;
+       cin>>nrTast;}
+    if(nrTast<5){
+     switch(nrTast){
     case 1: {Participant* rom=new Roman(); return rom;break;}
     case 2: {Participant* fra=new Francez(); return fra;break;}
     case 3: {Participant* ger=new German(); return ger;break;}
     case 4: {Participant* alt=new Participant(); return alt; break;}
+    }
     }
         return 0;
 }
